@@ -1,0 +1,33 @@
+[URL Rewrite]
+#喜马拉雅屏蔽开屏广告
+^https?:\/\/adse\.ximalaya\.com url reject-200
+#爱奇艺屏蔽开屏广告
+^https?:\/\/kjp\.cupid\.iqiyi\.com url reject-200
+#丰巢屏蔽开屏广告
+^https?:\/\/sdk\.pairmb\.com\/get\/sdk\/ad\/request\.do url reject-200
+#得物屏蔽开屏广告
+^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ url reject-200
+#斗鱼直播屏蔽开屏广告
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject-200
+#高德地图屏蔽开屏广告
+^https?:\/\/m5.amap.com\/ws\/valueadded\/ url reject-200
+#keep屏蔽开屏广告
+^https?:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad url reject-200
+#网易邮箱大师屏蔽开屏广告
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do url reject-200
+#知乎屏蔽开屏广告
+^https?:\/\/api.zhihu.com/commercial_api/real_time_launch_v2 url reject-200
+#京东屏蔽开屏广告
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId\=start url reject-dict
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId\=searchBoxWord url reject-dict
+#彩云天气屏蔽开屏广告
+^https?:\/\/api\.caiyunapp\.com\/v1\/activity url reject-200
+#掌上生活屏蔽开屏广告
+^https?:\/\/az(\d)mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec url reject-dict
+
+
+
+
+
+hostname = kjp.cupid.iqiyi.com, adse.ximalaya.com, sdk.pairmb.com, app.dewu.com, rtbapi.douyucdb.cn, m5.amap.com, kad.gotokeep.com, appconf.mail.163.com, api.zhihu.com, api.caiyunapp.com, az*mbasecc.bas.cmbchina.com
+

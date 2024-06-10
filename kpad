@@ -1,4 +1,4 @@
-[URL Rewrite]
+[rewrite_local]
 #喜马拉雅屏蔽开屏广告
 ^https?:\/\/adse\.ximalaya\.com url reject-200
 #爱奇艺屏蔽开屏广告
